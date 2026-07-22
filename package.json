@@ -1,0 +1,13 @@
+{
+  "name": "creators-school-rebuild",
+  "private": true,
+  "scripts": {
+    "build:agentation": "esbuild dev/agentation-entry.jsx --bundle --format=iife --platform=browser --target=es2020 --minify --outfile=assets/js/agentation-toolbar.js"
+  },
+  "devDependencies": {
+    "agentation": "3.0.2",
+    "esbuild": "0.28.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  }
+}
